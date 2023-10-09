@@ -1,0 +1,16 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        System.out.println("yowaimo!");
+        //memcetak data
+        
+        /*
+        hari pertama saya membuat project baru,
+        mencetak data, dan membuat komentar
+        */
+    }
+    
+}
