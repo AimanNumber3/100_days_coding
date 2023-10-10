@@ -1,0 +1,23 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        int a = 1;
+        short b = 2;
+        byte c = 3;
+        long d = 4;
+        float e = 5.0f;
+        double f = 6.0;
+        
+        char g = 'a';
+        
+        boolean h = true ;
+        
+        /*
+        hari kedua saya membuat
+        tipe data primitif
+        */
+    }
+    
+}
