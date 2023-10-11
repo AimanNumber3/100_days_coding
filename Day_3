@@ -1,0 +1,26 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        byte Oke = 100;
+        short Oke2 = 1000;
+        
+        int iya = 1000000;
+        
+        long iye = 100000000;
+        long iye2 = 100000000L;
+        
+        System.out.println(Oke);
+        System.out.println(Oke2);
+        System.out.println(iya);
+        System.out.println(iye);
+        System.out.println(iye2);
+        
+        /*
+        hari ketiga saya membuat
+        program integer number
+        */
+    }
+    
+}
