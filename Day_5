@@ -1,0 +1,23 @@
+package aiman;
+
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args){ 
+        
+        Scanner input = new Scanner (System.in);
+    
+        System.out.println("berapa panjang ");
+    										int panjang = input.nextInt();
+        
+        System.out.println("Berapa lebar : ");
+    										int lebar = input.nextInt();
+        
+        System.out.println();
+        System.out.println("luas dari persegi panjang tersebut adalah");
+        System.out.println(panjang*lebar);
+        
+    }
+    
+}
