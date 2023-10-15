@@ -1,0 +1,38 @@
+package aebb;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        System.out.println("nilai akademik berawal dari 1.0");
+        System.out.println("dan berakhir pada 5.0");
+        System.out.println("masukkan nilai anda : ");
+        double nilai = input.nextDouble ();
+        
+        if (nilai <3.0 && nilai >1.0){
+            System.out.println("predikat kamu : D");
+            System.out.println("kamu tidak lulus");
+        }else if (nilai >=3.1 && nilai <4.2){
+            System.out.println("predikat kamu : C");
+            System.out.println("kamu lulus");
+        										
+        }else if (nilai >=4.3 && nilai < 4.8){
+            System.out.println("predikat kamu : B");
+        									System.out.println("kamu lulus");
+        
+        }else if (nilai >=4.9 && nilai ==5.0){
+            System.out.println("predikat kamu : A");
+        									System.out.println("kamu lulus");
+        
+        }else if (nilai >5.0){
+            System.out.println("ERROR !!!");
+        										System.out.println("NILAI MELEWATI BATAS MAKSIMUM!");
+        
+        }else {
+            System.out.println("KYS!!!");
+        
+        }
+    }
+    
+}
