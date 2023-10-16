@@ -1,0 +1,21 @@
+package aiman;
+
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args){
+        //tipe data primitif
+        int A1 = 10;
+        long B1 = 10L;
+        
+        //tipe data bukan primitif
+        Integer A = 10;
+        Long B = 10L;
+        Boolean C = true;
+        
+        Short Be ; //ini null
+        Be = 100; //diberikan nilai
+    }
+    
+}
