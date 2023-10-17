@@ -1,0 +1,19 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        int angka = 69;
+        
+        Integer angkaObject = angka;
+        
+        int angkaLa = angkaObject;
+        
+        short angkaSh = angkaObject.shortValue();
+        long angkaLo = angkaObject.longValue();
+        byte angkaBy = angkaObject.byteValue();
+        
+    }
+    
+}
