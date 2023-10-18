@@ -1,0 +1,17 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        short umur = 69;
+        
+        Short umurObject = umur;
+        
+        int angkaSh = umurObject.shortValue();
+        long angkaLo = umurObject.longValue();
+        byte angkaBy = umurObject.byteValue();
+        
+    }
+    
+}
