@@ -1,0 +1,23 @@
+
+package aiman;
+
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args){
+        
+        int A1 = 10;
+        long B1 = 10L;
+        
+        Integer A = 10;
+        Long B = 10L;
+        Boolean C ;
+        C = true ;
+        
+        Short Be ;
+        Byte Ac ;
+        
+    }
+    
+}
