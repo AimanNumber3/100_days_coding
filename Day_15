@@ -1,0 +1,19 @@
+package study;
+
+import java.math.BigInteger;
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        BigInteger nilai = new BigInteger("696969696969696969696969696969");
+        BigInteger angka = new BigInteger("123456789012345678901234567890");
+        
+        BigInteger HasilTambah = nilai.add(angka);
+        BigInteger HasilKurang = nilai.subtract(angka);
+        BigInteger HasilKali = nilai.multiply(angka);
+        BigInteger HasilBagi = nilai.divide(angka);
+        
+        System.out.println("Nilai\t:"+HasilTambah);
+    }
+    
+}
