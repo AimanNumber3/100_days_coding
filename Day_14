@@ -1,0 +1,20 @@
+package unsulbar;
+
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String nama, akhir;
+        
+        System.out.println("masukkan nama depan anda :");
+        nama = input.nextLine();
+        System.out.println();
+        
+        System.out.println("masukkan nama belakang anda");
+        akhir = input.nextLine();
+        System.out.println();
+        
+        System.out.println("Salam Kenal!!");
+        System.out.println(nama+' '+akhir);
+    }
