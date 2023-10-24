@@ -1,0 +1,21 @@
+package study;
+
+import java.math.BigDecimal;
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        BigDecimal nilai = new BigDecimal("6969.69696969696969696969696969");
+        BigDecimal angka = new BigDecimal("1234567.89012345678901234567890");
+        
+        BigDecimal HasilTambah = nilai.add(angka);
+        BigDecimal HasilKurang = nilai.subtract(angka);
+        BigDecimal HasilKali = nilai.multiply(angka);
+        
+        System.out.println("Nilai tambah\t:"+HasilTambah);
+        System.out.println("Nilai kurang\t:"+HasilKurang);
+        System.out.println("Nilai kali\t:"+HasilKali);
+        
+    }
+    
+}
