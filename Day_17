@@ -1,0 +1,21 @@
+package aiman;
+
+public class Main {
+    
+    public static void main(String[] args){
+        
+        String nilai = "69";//nilai string yang ditetapkan
+        
+        //konversi nilai string ke tipe data berbasis angka
+        int nilaiInt = Integer.parseInt(nilai);
+        long nilaiLong = Long.parseLong(nilai);
+        double nilaiDoble = Double.parseDouble(nilai);
+        byte nilaiByte = Byte.parseByte(nilai);
+        
+        System.out.println("Nilai\t:"+nilaiInt);
+        System.out.println("Nilai\t:"+nilaiLong);
+        System.out.println("Nilai\t:"+nilaiDoble);
+        System.out.println("Nilai\t:"+nilaiByte);
+    }
+    
+}
