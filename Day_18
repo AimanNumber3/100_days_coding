@@ -1,0 +1,20 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        int nilai = 420;
+        String nilaiIS = Integer.toString(nilai);
+        long nilaiL = 69;
+        String nilaiLS = Long.toString(nilaiL);
+        double nilaiD = 69.420;
+        String nilaiDS = Double.toString(nilaiD);
+        
+        System.out.println("Nilai integer\t:"+nilaiIS);
+        System.out.println("Nilai long\t:"+nilaiLS);
+        System.out.println("Nilai double\t:"+nilaiDS);
+        
+    }
+    
+}
