@@ -1,0 +1,17 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        //deklarasi dan inisialisasi variabel tipe data
+        double nilai = 69.240; //deklarasi variabel double dan inisialisasi variabel
+        char predikat = 'A'; //deklarasi variabel char dan inisialisasi variabel
+        String hasil = "lulus"; //deklarasi variabel String dan inisialisasi variabel
+        
+        nilai = 1.0; //mengubah nilai 'nilai' menjadi '1.0'
+        predikat = 'E'; //mengubah nilai 'predikat' menjadi 'E'
+        hasil = "gagal"; //mengubah nilai 'hasil' menjadi 'gagal'
+    }
+    
+}
