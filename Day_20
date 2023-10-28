@@ -1,0 +1,12 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        final int angka = 69;
+        angka = 240;
+        //nilai dari angka tidak dapat dirubah
+    }
+    
+}
