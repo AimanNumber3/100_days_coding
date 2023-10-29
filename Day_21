@@ -1,0 +1,20 @@
+package unsulbar;
+
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int nama, akhir;
+        
+        System.out.println("masukkan angka yang ingin dikali :");
+        nama = input.nextInt();//perintah input
+        System.out.println();
+        
+        System.out.println("masukkan angka pengali :");
+        akhir = input.nextInt();//perintah input
+        System.out.println();
+        
+        System.out.println("hasil perkalian teraebut adalah :");
+        System.out.println(nama*akhir);//perintah output
+    }
