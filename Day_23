@@ -1,0 +1,25 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        int perkalian = 696969;
+        perkalian *= 69;
+        long pengurangan = 8619;
+        pengurangan -=694;
+        double pembagian = 69.240;
+        pembagian /=6.90;
+        byte penjumlahan = 69;
+        penjumlahan +=24;
+        short bagihasil = 240;
+        bagihasil %=69;
+        
+        System.out.println(perkalian);
+        System.out.println(pengurangan);
+        System.out.println(pembagian);
+        System.out.println(penjumlahan);
+        System.out.println(bagihasil);
+    }
+    
+}
