@@ -1,0 +1,25 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        byte nilai1 = 25;
+        byte nilai2 = 25;
+        
+        boolean sama = (nilai1 == nilai2);
+        boolean noSama = (nilai1 != nilai2);
+        boolean besar = (nilai1 > nilai2);
+        boolean kecil = (nilai1 < nilai2);
+        boolean besarSama = (nilai1 >= nilai2);
+        boolean kecilSama = (nilai1 <= nilai2);
+        
+        System.out.println(sama);
+        System.out.println(noSama);
+        System.out.println(besar);
+        System.out.println(kecil);
+        System.out.println(besarSama);
+        System.out.println(kecilSama);
+    }
+    
+}
