@@ -1,0 +1,20 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        boolean nilai1 = true;
+        boolean nilai2 = false;
+        
+        boolean sama = nilai1 && nilai2;
+        boolean noSama = nilai1 || nilai2;
+        boolean besar = !nilai1;
+        
+        System.out.println(sama);
+        System.out.println(noSama);
+        System.out.println(besar);
+        
+    }
+    
+}
