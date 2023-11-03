@@ -1,0 +1,14 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        boolean nilai = true;
+        
+        if (nilai=true){
+        System.out.println("lulus :)");
+        } 
+    }
+    
+}
