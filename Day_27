@@ -1,0 +1,17 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        boolean nilai = true;
+        boolean lulus = false;
+        
+        if (nilai || lulus){
+        System.out.println("ulangi semester depan");
+        }else if (nilai && lulus) {
+            System.out.println("kamu lulus :)");
+        }
+    }
+    
+}
