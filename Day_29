@@ -1,0 +1,19 @@
+package unsulbar;
+
+import java.util.Scanner;
+public class Main {
+public static void main (String [] args){
+    Scanner input =new Scanner(System.in);
+    int nomor;
+    
+    System.out.println("masukkan nomor antara 1 - 10");
+    System.out.println("nomor anda adalah :");
+    nomor = input.nextInt();
+    
+    if (nomor > 40 && nomor < 50){
+//ternary operation
+        String pesan = (nomor > 5) ? "lebih besar dari lima" : "kurang dari atau sama dengan lima";
+        System.out.println(pesan);
+    }
+}
+}
