@@ -1,0 +1,27 @@
+package unsulbar;
+
+import java.util.Scanner;
+public class Main {
+public static void main (String [] args){
+    Scanner input =new Scanner(System.in);
+    int nomor;
+    
+    System.out.println("masukkan nomor antara 1 - 50");
+    System.out.println("nomor anda adalah :");
+    nomor = input.nextInt();
+    
+    if (nomor > 40 && nomor < 50){
+        System.out.println("nomor anda kurang dari 50 dan di atas 40");
+    }else if (nomor < 40 && nomor > 20){
+        System.out.println("nomor anda kurang dari 40 dan di atad 20");
+    }else if (nomor > 10 && nomor < 20){
+        System.out.println("nomor anda berada di antara 10 dan 20");
+    }else if (nomor < 10){
+        System.out.println("nomor anda kurang dari 10");
+    }else if (nomor == 50){
+        System.out.println("nomor anda adalah 50");
+    }else {
+        System.out.println("nomor yang anda masukkan tidak valid");
+    }
+}
+}
