@@ -1,0 +1,22 @@
+package study;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        String mood = "happy";
+        switch (mood){
+            case "mad":
+            break;
+            
+            case "sad":
+            break;
+            
+            case "content":
+            break;
+            
+            default:
+        }
+    }
+    
+}
