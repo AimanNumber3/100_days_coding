@@ -1,27 +1,26 @@
-package unsulbar;
-
+package kaisen ;
+import java.util.Scanner
 public class Main {
-public static void main (String [] args){
-    String nama = "Amrillah";
     
-    int Komputer = 55000000;
-    int gaji = 5000000; 
-    int Kost = 750000; 
-    int Tabungan = 1500000;
-    
-        int tabungan1 = 0;
-        int bulan = 0;
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
 
-        while (tabungan1 < Komputer) {
-            bulan++;
-            tabungan1 += gaji - Kost;
-        }if (tabungan1 > Tabungan || tabungan1 == Tabungan){
-    System.out.println("Nama mahasiswa : "+nama);
-    System.out.println("Harga komputer sultan : "+Komputer);
-    System.out.println("Gaji pokok perbulan : "+gaji);
-    System.out.println("Biaya kost perbulan : "+Kost);
-    System.out.println("Tabungan maksimal perbulan : "+Tabungan);
-    System.out.println(nama+' '+"membutuhkan minimal " + bulan + " bulan untuk membeli Komputer Sultan.");
+        int nomor, akhir;
+        System.out.println("pastikan awalan nomor lebih kecil dari akhiran");
+
+        System.out.println("masukkan nomor awalan anda");
+        System.out.println();
+        nomor = input.nextInt();
+
+        System.out.println("masukkan akhiran nomor");
+        System.out.println();
+        akhir = input.nextInt();
+        System.out.println();
+
+        for (int a=nomor ; a<=akhir;a--){
+        System.out.println(a);
         }
+        
     }
+    
 }
