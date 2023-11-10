@@ -1,0 +1,23 @@
+package study;
+
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        int ganjil, genap;
+        
+        System.out.println("masukkan angka ganjil");
+        ganjil = input.nextInt();
+        System.out.println("masukkan angka genap");
+        genap = input.nextInt();
+        for (ganjil = 1; ganjil <= 10; ganjil -=3){
+        System.out.println(ganjil);
+        }
+        for (genap = 1; genap <= 10; genap +=2){
+        System.out.println(genap);
+        }
+    }
+    
+}
