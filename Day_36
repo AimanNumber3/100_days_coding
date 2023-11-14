@@ -1,0 +1,30 @@
+package aebb;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        int nomor, akhir,hasil,genap;
+        
+        System.out.println("masukkan nomor awalan anda");
+        System.out.println();
+        nomor = input.nextInt();
+        
+        System.out.println("masukkan akhiran nomor");
+        System.out.println();
+        akhir = input.nextInt();
+        System.out.println();
+        System.out.println("angka yang habis dibagi 3 antara "+nomor+' '+"dan"+' '+akhir+' '+"adalah :");
+           
+        for (int i = 1; nomor<= akhir; nomor++) {
+            hasil = nomor % 3 ;
+            if(hasil == 0 ){
+                genap = nomor % 2;
+                if(genap == 0)
+                System.out.print(nomor+' ');
+            }
+        }
+    }
+    
+}
