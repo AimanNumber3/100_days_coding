@@ -1,0 +1,32 @@
+package study;
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int satu,dua,tiga,empat,lima,enam,tuju,delpan;
+        
+        System.out.println("masukkan nomor pertama");
+        satu = input.nextInt();
+        System.out.println("masukkan nomor kedua");
+        dua = input.nextInt();
+        System.out.println("masukkan nomor ketiga");
+        tiga = input.nextInt();
+        System.out.println("masukkan nomor keempat");
+        empat = input.nextInt();
+        System.out.println("masukkan nomor kelima");
+        lima = input.nextInt();
+        System.out.println("masukkan nomor keenam");
+        enam = input.nextInt();
+        System.out.println("masukkan nomor ketujuh");
+        tuju = input.nextInt();
+        System.out.println("masukkan nomor kedelapan");
+        delpan = input.nextInt();
+        int [] angka = {satu,dua,tiga,empat,lima,enam,tuju,delpan};
+        
+        for (int nilai : angka){
+        System.out.println(nilai);
+        }
+    }
+    
+}
