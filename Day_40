@@ -1,0 +1,22 @@
+package makan;
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("tuliskan nama depan anda :");
+        String depan = input.nextLine();
+        System.out.println("tuliskan nama belakang anda :");
+        String belakang = input.nextLine();
+        System.out.println("berapa umur anda :");
+        int umur = input.nextInt();
+        System.out.println( );
+        
+        if (umur > 18){
+            System.out.println("saudara "+belakang+','+" anda dinyatakan cukup umur untuk mendaftar KTP!");
+        }else{
+            System.out.println(depan+','+" anda dinyatakan tidak cukup umur untuk mendaftar KTP!");
+        }
+    }
+}
