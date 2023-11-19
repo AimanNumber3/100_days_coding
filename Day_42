@@ -1,0 +1,22 @@
+package study;
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int panjang, lebar, luas;
+        
+        System.out.println("menghitung luas persegi");
+        System.out.println("tuliskan berapa lebarnya :");
+        lebar = input.nextInt();
+        
+        System.out.println(' ');
+        System.out.println("tuliskan berapa panjangnya :");
+        panjang = input.nextInt();
+        
+        luas = panjang * lebar;
+        System.out.println("luas = (panjang) x (lebar)");
+        System.out.println("maka luas persegi tersebut adalah :");
+        System.out.println(luas);
+    }
+}
