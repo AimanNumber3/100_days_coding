@@ -1,0 +1,38 @@
+package study;
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int tugas1, tugas2, tugas3, tugas4, tugas5, rata;
+        
+        System.out.println("Berapa Nilai Tugas 1 anda :");
+        tugas1 = input.nextInt();
+        
+        System.out.println("Berapa Nilai Tugas 2 anda :");
+        tugas2 = input.nextInt();
+        
+        System.out.println("Berapa Nilai Tugas 3 anda :");
+        tugas3 = input.nextInt();
+        
+        System.out.println("Berapa Nilai Tugas 4 anda :");
+        tugas4 = input.nextInt();
+        
+        System.out.println("Berapa Nilai Tugas 5 anda :");
+        tugas5 = input.nextInt();
+        System.out.println(' ');
+        
+        rata = (tugas1+tugas2+tugas3+tugas4+tugas5)/5;
+        if(rata >= 90 && rata <= 100){
+            System.out.println("Anda Mendapat Nilai A!");
+        }else if(rata >= 80 && rata < 90){
+            System.out.println("Anda Mendapat Nilai B!");
+        }else if(rata >= 70 && rata < 80){
+            System.out.println("Anda Mendapat Nilai C!");
+        }else if(rata >= 60 && rata < 70){
+            System.out.println("Anda Mendapat Nilai D!");
+        }else if(rata < 60) {
+            System.out.println("Anda Mendapat Nilai E!");
+        }
+    }
+}
