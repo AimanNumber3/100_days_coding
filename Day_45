@@ -1,0 +1,22 @@
+package kaisen;
+
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int apa;
+        
+        System.out.println("is it goal?");
+        System.out.println("1 = yes, 0 = no");
+        apa = input.nextInt();
+        System.out.println(' ');
+        
+        if(apa == 1){
+            System.out.println("SUUIIII!!!");
+        }else if(apa == 0){
+            System.out.println(":(");
+        }else System.out.println("KYS!!!");
+    }
+    
+}
