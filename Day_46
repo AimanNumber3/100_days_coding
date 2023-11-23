@@ -1,0 +1,29 @@
+package aebb;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        int nomor, akhir,hasil,genap;
+        
+        System.out.println("masukkan nomor awalan anda");
+        nomor = input.nextInt();
+        System.out.println("masukkan akhiran nomor");
+        akhir = input.nextInt();
+        System.out.println(' ');
+        
+        System.out.println("angka ingin dibagi berapa :");
+        genap = input.nextInt();
+        System.out.println(' ');
+        System.out.println("angka yang habis dibagi "+genap+" antara "+nomor+' '+"dan"+' '+akhir+' '+"adalah :");
+        
+          int a = nomor; 
+        for (int i = a; i<= akhir; i++) {
+            hasil = i % genap;
+            if(hasil == 0){
+                System.out.println(i);
+            }
+        }
+    }
+}
