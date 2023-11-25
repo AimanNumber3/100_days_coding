@@ -1,0 +1,18 @@
+package kaisen;
+public class Main {
+    
+    public static void main(String[] args) {
+        //mengubah kata menjadi angka
+        
+        String iya = "ganti";
+        //kata yang akan diubah
+        
+        //mengganti nilai variabel
+        String oke = iya.replace("ganti","10");
+        
+        //mengkonversi String menjadi integer
+        int ubah = Integer.parseInt(oke);
+        
+        System.out.println(ubah); //output
+    }
+}
