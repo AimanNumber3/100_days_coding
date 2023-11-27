@@ -1,0 +1,21 @@
+package kaisen;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("apakah iya atau tidak");
+        String iya = input.nextLine();
+        
+        if(iya == "iya"){
+            String ye = iya.replace("iya","1");
+            System.out.println("hasil : "+ye);
+        }
+        else if(iya == "tidak"){
+            String no = iya.replace("tidak","0");
+        System.out.println("hasil : "+no);
+        }
+        else System.out.println("input tidak valid !!");
+    }
+}
