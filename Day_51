@@ -1,0 +1,23 @@
+package kaisen;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        String Benar1 = "admin";
+        String Benar2 = "login";
+        
+        System.out.print("Masukkan username: ");
+        String name = input.nextLine();
+
+        System.out.print("Masukkan password: ");
+        String pass = input.nextLine();
+
+        if (name.equals(Benar1) && pass.equals(Benar2)) {
+            System.out.println("Login sukses");
+        } else {
+            System.out.println("Login gagal");
+        }
+    }
+}
