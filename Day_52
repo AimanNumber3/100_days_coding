@@ -1,0 +1,20 @@
+package kaisen;
+import java.util.Scanner;
+public class Main {
+    
+    public static void namaLengkap(String nama){
+    System.out.println("halo "+nama+" senang mengenalmu!");
+    }
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("masukkan nama depan anda");
+        String depan = input.nextLine();
+        
+        System.out.println("masukkan nama belakang anda");
+        String belakang = input.nextLine();
+        
+        String nama = depan+' '+belakang;
+        namaLengkap(nama);
+    }
+}
