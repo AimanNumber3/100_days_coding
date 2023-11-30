@@ -1,0 +1,11 @@
+package kaisen;
+
+public class Main {
+    public static void kalimat(String teks){
+            System.out.println(text);
+    }
+    public static void main(String[] args) {
+        String text = "layar hp rusak :(";
+        kalimat(text);
+    }
+}
