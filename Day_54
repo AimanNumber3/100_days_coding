@@ -1,0 +1,19 @@
+package kaisen;
+import java.util.Scanner;
+public class Main {
+    public static void data(int x,int y,int z){
+        System.out.println("Nilai panjang = "+x+"\nNilai lebar = "+y);
+        System.out.println("Nilai panjang x lebar adalah :");
+        System.out.println(z);
+    }
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int y,x,z;
+        System.out.print("Masukan panjang = ");
+        x = input.nextInt();
+        System.out.print("Masukan lebar = ");
+        y = input.nextInt();
+        z = x*y;
+        data(x,y,z);
+    }
+}
