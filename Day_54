@@ -1,23 +1,13 @@
 package kaisen;
 import java.util.Scanner;
 public class Main {
-    static int MenghitungLuas(int x,int y,int z){
-        System.out.println("Nilai panjang = "+x+"\nNilai lebar = "+y);
-        System.out.println("Nilai panjang x lebar adalah :");
-        System.out.println(z);
-        
-        return z;
-    }
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int y,x,z;
-        
-        System.out.print("Masukan panjang = ");
-        x = input.nextInt();
-        System.out.print("Masukan lebar = ");
-        y = input.nextInt();
-        z = (x*y);
-        
-        MenghitungLuas(x,y,z);
-    }
+    static double hitungLuas(double alas, double tinggi) {
+    double luas = (alas * tinggi) / 2;
+    return luas;
+  }
+   
+  public static void main(String args[]){
+    double hasil = hitungLuas(2, 3);
+    System.out.println(hasil);
+  }
 }
