@@ -1,0 +1,16 @@
+package budke;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        String jibberish = "kajsuebf? hi!";
+        
+        char karakter1 = jibberish.charAt(6);
+        char karakter2 = jibberish.charAt(9);
+        char karakter3 = jibberish.charAt(12);
+        
+        System.out.println(karakter1+' '+karakter2+' '+karakter3+'.');
+    }
+    
+}
