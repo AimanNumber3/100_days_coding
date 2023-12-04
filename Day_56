@@ -1,0 +1,21 @@
+package wksn;
+import java.math.BigInteger;
+public class Main {
+    
+    public static BigInteger hitungFaktorial(int n) {
+        
+        BigInteger hasil = BigInteger.ONE;
+
+        for (int i = 1; i <= n; i++) {
+            hasil = hasil.multiply(BigInteger.valueOf(i));
+        }
+        return hasil;
+    }
+
+    public static void main(String[] args) {
+        int angka = 5;
+        BigInteger hasilFaktorial = hitungFaktorial(angka);
+
+        System.out.println("Faktorial dari " + angka + " adalah: " + hasilFaktorial);
+    }
+}
