@@ -1,0 +1,14 @@
+package wksn;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        Integer Perkalian = kali(6,9);
+        System.out.println("hasil : "+Perkalian);
+    }
+    public static Integer kali(int a, int b){
+        int hasil = a * b;
+        return hasil;
+    }
+}
