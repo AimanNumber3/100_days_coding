@@ -1,0 +1,17 @@
+package budke;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        String kata= input.nextLine();
+        String contains = input.nextLine();
+        
+        if (kata.contains(kata)) {
+            System.out.println("kata mengandung huruf tersebut");
+        }else{
+          System.out.println("kata tidak mengandung huruf tersebut");  
+        }
+    }
+}
