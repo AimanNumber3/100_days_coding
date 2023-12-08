@@ -1,0 +1,14 @@
+package wksn;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        String anu1 = "ini";
+        String anu2 = "itu";
+        String anu3 = "sana";
+        String anu4 = "sini";
+        
+        String gabung = anu1+' '+anu2+' '+anu3+' '+anu4;
+        System.out.println(gabung);
+    }
+}
