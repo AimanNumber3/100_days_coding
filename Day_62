@@ -1,0 +1,13 @@
+package wksn;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        String data = "Nama: Aiman,Lahir: Gorontalo,Kuliah: Unsulbar";
+        String[] kata = data.split(",");
+
+        System.out.println("baris 1 = " + kata[0]);
+        System.out.println("baris 2 = " + kata[1]);
+        System.out.println("baris 3 = " + kata[2]);
+    }
+}
