@@ -1,0 +1,18 @@
+package budke;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        String tanya = "ya";
+        System.out.println("apakah anda setuju? \nya atau tidak?");
+        String jawab = input.nextLine();
+        
+        if (jawab.equals(tanya)) {
+            System.out.println("😘");
+        }else if(jawab.equals("tidak")){
+          System.out.println("🖕");  
+        }else{System.out.println("masukkan jawaban yang valid");}
+    }
+}
