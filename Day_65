@@ -1,0 +1,14 @@
+package aiman;
+
+public class Main {
+    
+    public static void main(String[] args){
+        
+        String jibberish = "iHskAHjA";
+        String sama = "ihskahja";
+        if(sama.equalsIgnoreCase(jibberish)){
+            System.out.println("masuk akal");
+        }else {System.out.println("🖕");}
+    }
+    
+}
