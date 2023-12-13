@@ -1,0 +1,17 @@
+package aebb;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        System.out.println("masukkan nama depan :");
+        String depan = input.nextLine();
+        System.out.println("masukkan nama belakang :");
+        String belakang = input.nextLine();
+        System.out.println(' ');
+        
+        String hasil = String.format("Halo, %s %s",depan,belakang);
+        System.out.println(hasil);
+    }
+}
