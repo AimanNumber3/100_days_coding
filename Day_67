@@ -1,0 +1,18 @@
+package wksn;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        StringBuffer isi = new StringBuffer("Nur Rahiman");
+        System.out.println(isi);
+        isi.deleteCharAt(7);
+        System.out.println("hasil setelah :");
+        System.out.println(isi);
+        System.out.println(' ');
+        StringBuilder baru = new StringBuilder("minggu");
+        System.out.println(baru);
+        baru.deleteCharAt(3);
+        System.out.println("hasil setelah :");
+        System.out.println(baru);
+    }
+}
