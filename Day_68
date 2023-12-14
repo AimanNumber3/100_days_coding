@@ -1,0 +1,15 @@
+package aebb;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        String isi = input.nextLine();
+        StringBuilder baru = new StringBuilder(isi);
+        System.out.println(' ');
+        baru.reverse();
+        System.out.println("hasil setelah reverse :");
+        System.out.println(baru);
+    }
+}
