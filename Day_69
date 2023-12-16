@@ -1,0 +1,18 @@
+package aebb;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        String nama = input.nextLine();
+        if (isPalindrome(nama)) {
+            System.out.println("'" + nama + "' adalah palindrome.");
+        } else {
+            System.out.println("'" + nama + "' bukan palindrome.");
+        }
+    }
+    private static boolean isPalindrome(String str) {
+        return str.equals(new StringBuilder(str).reverse().toString());
+    }
+}
