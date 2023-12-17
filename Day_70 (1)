@@ -1,0 +1,11 @@
+package Asli;
+public class Main {
+    String nama,nim;
+    int umur;
+    
+    public void hasil(){
+        System.out.println("nama : "+nama);
+        System.out.println("nim : "+nim);
+        System.out.println("umur : "+umur);
+    }
+}
