@@ -1,0 +1,27 @@
+package Asli;
+public class Main {
+    private String nama,nim;
+    private int umur;
+    
+    public void hasil(){
+        System.out.println("nama : "+nama);
+        System.out.println("nim : "+nim);
+        System.out.println("umur : "+umur);
+    }
+}
+
+/*membuat class baru untuk menampung data (nama, nim, & umur).
+selanjutnya mengisi data tersebut di method main dan memanggil 
+data dari class yang dibuat  sebelumnya.*/
+
+package Asli;
+public class data {
+    
+    public static void main(String []args){
+        Main data = new Main();
+        data.nama = "Aiman";
+        data.nim = "D0223308";
+        data.umur = 18;
+        data.hasil();
+    }
+}
