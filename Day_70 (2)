@@ -3,9 +3,9 @@ public class data {
     
     public static void main(String []args){
         Main data = new Main();
-        data.nama = "Aiman";
-        data.nim = "D0223308";
-        data.umur = 18;
+        data.setNama = "Aiman";
+        data.setNim = "D0223308";
+        data.setUmur = 18;
         data.hasil();
     }
 }
