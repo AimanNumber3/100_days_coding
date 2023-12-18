@@ -3,6 +3,25 @@ public class Main {
     private String nama,nim;
     private int umur;
     
+    public String getNama(){
+        return nama;
+    }
+    public void setNama(String nama){
+        this.nama = nama;
+    }
+    public String getNim(){
+        return nim;
+    }
+    public void setNim(String nim){
+        this.nim = nim;
+    }
+    public int getUmur(){
+        return umur;
+    }
+    public void setUmur(int umur){
+        this.umur = umur;
+    }
+    
     public void hasil(){
         System.out.println("nama : "+nama);
         System.out.println("nim : "+nim);
@@ -19,9 +38,9 @@ public class data {
     
     public static void main(String []args){
         Main data = new Main();
-        data.nama = "Aiman";
-        data.nim = "D0223308";
-        data.umur = 18;
+        data.setNama = "Aiman";
+        data.setNim = "D0223308";
+        data.setUmur = 18;
         data.hasil();
     }
 }
