@@ -6,10 +6,10 @@ public class qnsjs {
 
     {
         StringBuilder str = new StringBuilder();
-        str.append("GFG");
+        str.append("GTFO");
 
         System.out.println("baris 1 = " + str.toString());
-        StringBuilder str1 = new StringBuilder("AAAABBBCCCC");
+        StringBuilder str1 = new StringBuilder("TAHUNBARU");
         System.out.println("baris 2 = " + str1.toString());
         
         StringBuilder str2 = new StringBuilder(str1.toString());
