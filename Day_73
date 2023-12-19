@@ -6,10 +6,10 @@ public class qbsisn {
         StringBuilder sb = new StringBuilder();
         sb.append("Halo,");
         sb.append(" ");
-        sb.append("aiman ");
+        sb.append("aiman! ");
         System.out.println(sb.toString()); 
         
-        sb.insert(6, "saya ");
+        sb.insert("saya ");
         System.out.println(sb.toString());
         
         sb.reverse();
