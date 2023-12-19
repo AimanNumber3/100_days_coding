@@ -1,0 +1,18 @@
+package sidnxi;
+
+public class qbsisn {
+    
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Halo,");
+        sb.append(" ");
+        sb.append("aiman ");
+        System.out.println(sb.toString()); 
+        
+        sb.insert(6, "saya ");
+        System.out.println(sb.toString());
+        
+        sb.reverse();
+        System.out.println(sb.toString());
+    }
+}
