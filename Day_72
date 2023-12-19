@@ -1,0 +1,23 @@
+package nendnd;
+import java.util.concurrent.LinkedBlockingQueue;
+public class qnsjs {
+    
+    public static void main(String[] argv) throws Exception
+
+    {
+        StringBuilder str = new StringBuilder();
+        str.append("GFG");
+
+        System.out.println("baris 1 = " + str.toString());
+        StringBuilder str1 = new StringBuilder("AAAABBBCCCC");
+        System.out.println("baris 2 = " + str1.toString());
+        
+        StringBuilder str2 = new StringBuilder(10);
+        System.out.println("kapasitas baris 3 = "
+                           + str2.capacity());
+        
+        StringBuilder str3 = new StringBuilder(str1.toString());
+        System.out.println("baris 4 = " + str3.toString());
+        
+    }
+}
