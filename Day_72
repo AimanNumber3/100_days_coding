@@ -13,10 +13,10 @@ public class qnsjs {
         System.out.println("baris 2 = " + str1.toString());
         
         StringBuilder str2 = new StringBuilder(str1.toString());
-        System.out.println("baris 4 = " + str3.toString());
+        System.out.println("baris 3 = " + str3.toString());
 
         StringBuilder str3 = new StringBuilder(10);
-        System.out.println("kapasitas baris 3 = "
+        System.out.println("kapasitas baris 4 = "
                            + str3.capacity());
         
     }
