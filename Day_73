@@ -1,18 +1,15 @@
-package sidnxi;
+package Social;
 
-public class qbsisn {
-    
-    public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Halo,");
-        sb.append(" ");
-        sb.append("aiman! ");
-        System.out.println(sb.toString()); 
-        
-        sb.insert("saya ");
-        System.out.println(sb.toString());
-        
-        sb.reverse();
-        System.out.println(sb.toString());
-    }
+class OuterClass {
+  String namaBelakang = "Nur ";
+  class InnerClass {
+      String namaDepan = "Rahiman";
+  }
+}
+public class Main {
+  public static void main(String[] args) {
+    OuterClass myOuter = new OuterClass();
+    OuterClass.InnerClass myInner = myOuter.new InnerClass();
+    System.out.println(myInner.namaDepan +' '+ myOuter.namaBelakang);
+  }
 }
