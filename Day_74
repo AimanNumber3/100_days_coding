@@ -1,0 +1,18 @@
+package Social;
+
+class perkalian {
+  int alas ;
+    int lebar ;
+  
+    void Kalikan(){
+        System.out.println(alas*lebar);
+    }
+}
+public class Main {
+  public static void main(String[] args) {
+      perkalian kotak = new perkalian();
+      kotak.alas = 69;
+      kotak.lebar = 420;
+      kotak.Kalikan();
+  }
+}
