@@ -1,0 +1,29 @@
+package pkg100day;
+import java.util.ArrayList;
+import java.util.Vector;
+public class Main {
+    
+    public static void main(String[] args) {
+        ArrayList<Object> LimaData = new ArrayList<>();
+        Vector <Object> DataV = new Vector<>();
+           
+           LimaData.add(Integer.valueOf(420));
+           LimaData.add(Double.valueOf(6.9));
+           LimaData.add("Data String");
+           LimaData.add('A');
+           LimaData.add(Float.valueOf(69.0f));
+           System.out.println("Nilai ArrayList : ");
+           for(Object Out : LimaData){
+               System.out.println(Out);
+           }
+           
+           System.out.println(" \nNilai Vector : ");
+           DataV.add(Integer.valueOf(69));
+           DataV.add(Double.valueOf(42.0));
+           DataV.add("Data String Vector");
+           for(Object NoIn : DataV){
+               System.out.println(NoIn);
+           }
+    }
+    
+}
