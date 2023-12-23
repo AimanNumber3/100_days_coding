@@ -1,0 +1,34 @@
+package pkg100day;
+import java.util.ArrayList;
+import java.util.Vector;
+public class Main {
+    
+    public static void main(String[] args) {
+        //mendeklarasikan variabel
+        ArrayList<Integer> umur = new ArrayList<Integer>();
+        Vector<Double> DataV = new Vector<Double>();
+           
+        //mengisi nilai dari ArrayList
+           umur.add (32);
+           umur.add (19);
+           umur.add (23);
+           umur.add (56);
+           
+           umur.set(0, 35); //mengubah nilai dari indeks pertama
+           umur.remove(3); //menghapus indeks keempat
+           
+           System.out.println("Nilai ArrayList : ");
+           for (int i = 0; i < umur.size(); i++) {
+               System.out.println(umur.get(i));
+        }
+           
+           System.out.println(" \nNilai Vector : ");
+           //mengisi nilai dari Vector
+           DataV.add (6.9);
+           DataV.add (42.0);
+           for(Object NoIn : DataV){
+               System.out.println(NoIn);
+           }
+    }
+    
+}
