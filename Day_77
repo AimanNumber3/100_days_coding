@@ -1,0 +1,44 @@
+package pkg100day;
+import java.util.ArrayList;
+import java.util.Vector;
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        ArrayList<ArrayList<String>> Daftar2 = new ArrayList();
+        
+        ArrayList<String> Bahan2 = new ArrayList<String>();
+           Bahan2.add ("tomat");
+           Bahan2.add ("cabai");
+           Bahan2.add ("bawang");
+           
+        ArrayList<String> Alat2 = new ArrayList<String>();
+            Alat2.add ("wajan");
+            Alat2.add ("blender");
+            Alat2.add ("spatula");
+            
+            Daftar2.add(Bahan2);
+            Daftar2.add(Alat2);
+            System.out.println("Isi nilai Arraylist : ");
+            System.out.println(Daftar2);
+            System.out.println(' ');
+           
+        Vector<Vector<String>> DaftarV = new Vector();
+        
+        Vector<String> Mobil2 = new Vector<String>();
+            Mobil2.add("Toyota");
+            Mobil2.add("Daihatsu");
+            Mobil2.add("Isuzu");
+            
+        Vector<String> Motor2 = new Vector<String>();
+            Motor2.add("Honda");
+            Motor2.add("Yamaha");
+            Motor2.add("Suzuki");
+            
+        DaftarV.add(Mobil2);
+        DaftarV.add(Motor2);
+        System.out.println("Isi nilai Vector : ");
+        System.out.println(DaftarV);
+    }
+    
+}
