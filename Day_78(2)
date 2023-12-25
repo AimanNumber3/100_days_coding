@@ -1,0 +1,17 @@
+package pkg100day;
+import java.util.ArrayList;
+import java.util.Vector;
+public class InputUser {
+    ArrayList AList;
+    Vector Vektor;
+    static int HowMany;
+    
+    InputUser(ArrayList Daftar){
+        this.AList=AList;
+        HowMany++;
+    }
+    InputUser(Vector Vektor){
+        this.Vektor=Vektor;
+        HowMany++;
+    }
+}
