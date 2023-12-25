@@ -11,7 +11,7 @@ public class Main {
            Daftar2.add ("bawang");
            
         InputUser Daftar = new InputUser(Daftar2);
-            System.out.println("Banyaknya sistem Array dalam Arraylist : ");
+            System.out.println("Banyaknya ArrayList dalam variabel Daftar2 : ");
             System.out.println(InputUser.HowMany);
             System.out.println(' ');
            
@@ -29,7 +29,7 @@ public class Main {
         DaftarV.add(Mobil2);
         DaftarV.add(Motor2);
         InputUser Vektor = new InputUser(DaftarV);
-            System.out.println("Banyaknya sistem Array dalam Vector : ");
+            System.out.println("Banyaknya Vector dalam variabel DaftarV : ");
             System.out.println(InputUser.HowMany);
     }
     
