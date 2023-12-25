@@ -1,0 +1,36 @@
+package pkg100day;
+import java.util.ArrayList;
+import java.util.Vector;
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        ArrayList<String> Daftar2 = new ArrayList<String>();
+           Daftar2.add ("tomat");
+           Daftar2.add ("cabai");
+           Daftar2.add ("bawang");
+           
+        InputUser Daftar = new InputUser(Daftar2);
+            System.out.println("Banyaknya sistem Array dalam Arraylist : ");
+            System.out.println(InputUser.HowMany);
+            System.out.println(' ');
+           
+        Vector<Vector<String>> DaftarV = new Vector();
+        Vector<String> Mobil2 = new Vector<String>();
+            Mobil2.add("Toyota");
+            Mobil2.add("Daihatsu");
+            Mobil2.add("Isuzu");
+            
+        Vector<String> Motor2 = new Vector<String>();
+            Motor2.add("Honda");
+            Motor2.add("Yamaha");
+            Motor2.add("Suzuki");
+            
+        DaftarV.add(Mobil2);
+        DaftarV.add(Motor2);
+        InputUser Vektor = new InputUser(DaftarV);
+            System.out.println("Banyaknya sistem Array dalam Vector : ");
+            System.out.println(InputUser.HowMany);
+    }
+    
+}
