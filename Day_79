@@ -1,0 +1,49 @@
+package sidnxi;
+import java.util.ArrayList;
+import java.util.Vector;
+public class qbsisn {
+    
+    public static void main(String[] args) {
+        ArrayList<ArrayList<String>> Daftar2 = new ArrayList();
+
+        ArrayList<String> Bahan2 = new ArrayList<String>();
+           Bahan2.add ("tomat");
+           Bahan2.add ("cabai");
+           Bahan2.add ("bawang");
+        Bahan2.set(0, "jeruk");
+
+        ArrayList<String> Alat2 = new ArrayList<String>();
+            Alat2.add ("wajan");
+            Alat2.add ("blender");
+            Alat2.add ("spatula");
+
+            Daftar2.add(Bahan2);
+            Daftar2.add(Alat2);
+        
+        Daftar2.remove(Alat2);
+        if (Daftar2.contains(Alat2)){
+            System.out.println("Isi nilai Arraylist : ");
+            System.out.println(Daftar2);
+            System.out.println(' ');
+        }else {System.out.println("false \n ");}
+   
+        Vector<Vector<String>> DaftarV = new Vector();
+
+        Vector<String> Mobil2 = new Vector<String>();
+            Mobil2.add("Toyota");
+            Mobil2.add("Daihatsu");
+            Mobil2.add("Isuzu");
+        Mobil2.set(1, "Ferrari");
+        Mobil2.remove(2);
+
+        Vector<String> Motor2 = new Vector<String>();
+            Motor2.add("Honda");
+            Motor2.add("Yamaha");
+            Motor2.add("Suzuki");
+        Motor2.remove(2);
+
+        DaftarV.add(Mobil2);
+        DaftarV.add(Motor2);
+        System.out.println("Isi nilai Vector : ");
+        System.out.println(DaftarV);
+   
