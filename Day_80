@@ -23,17 +23,13 @@ public class JavaApplication1 {
            Daftar2.add (Alist1);
            Daftar2.add (Alist2);
            System.out.println("Nilai ArrayList : ");
-            for(Object Output : Daftar2){
-               System.out.println(Output);
-            }
+           System.out.println(Daftar2);
             
          Vector<String> DaftarV = new Vector<String>();
             DaftarV.add(Vektor);
             DaftarV.add(Vektor1);
             DaftarV.add(Vektor2);
             System.out.println("Nilai Vector : ");
-            for(Object Nomor : DaftarV){
-               System.out.println(Nomor);
-            }
+            System.out.println(DaftarV);
     }
 }
