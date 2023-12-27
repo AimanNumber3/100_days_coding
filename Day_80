@@ -1,0 +1,39 @@
+package javaapplication1;
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Vector;
+public class JavaApplication1 {
+
+     public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        String Alist,Alist1,Alist2,Vektor,Vektor1,Vektor2;
+        
+        System.out.println("Masukkan Nilai ArrayList : ");
+        Alist = input.nextLine(); 
+        Alist1 = input.nextLine(); 
+        Alist2 = input.nextLine(); 
+        System.out.println("Masukkan Nilai Vector : ");
+        Vektor = input.nextLine();
+        Vektor1 = input.nextLine();
+        Vektor2 = input.nextLine();
+        System.out.println(' ');
+        
+        ArrayList<String> Daftar2 = new ArrayList<String>();
+           Daftar2.add (Alist);
+           Daftar2.add (Alist1);
+           Daftar2.add (Alist2);
+           System.out.println("Nilai ArrayList : ");
+            for(Object Output : Daftar2){
+               System.out.println(Output);
+            }
+            
+         Vector<String> DaftarV = new Vector<String>();
+            DaftarV.add(Vektor);
+            DaftarV.add(Vektor1);
+            DaftarV.add(Vektor2);
+            System.out.println("Nilai Vector : ");
+            for(Object Nomor : DaftarV){
+               System.out.println(Nomor);
+            }
+    }
+}
