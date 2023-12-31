@@ -1,0 +1,23 @@
+package linkedlist1;
+import java.util.LinkedList;
+public class LinkedList1 {
+
+    public static void main(String[] args) {
+        
+        LinkedList<String> Mobil2 = new LinkedList<String>();
+            Mobil2.add("Toyota");
+            Mobil2.add("Daihatsu");
+            Mobil2.add("Isuzu");
+            Mobil2.add("Hyundai");
+            Mobil2.add("Daihatsu");
+            Mobil2.add("Honda");
+            
+            Mobil2.set(1, "Ferrari");
+            Mobil2.set(4, "Tesla");
+            Mobil2.set(3, "BMW");
+            if(Mobil2.contains("BMW")){
+                System.out.println("Index linkedList : \n"+Mobil2);
+            }else{System.out.println("Index Error");}
+    }
+    
+}
