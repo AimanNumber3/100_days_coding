@@ -1,0 +1,22 @@
+package linkedlist1;
+import java.util.LinkedList;
+public class LinkedList1 {
+
+    public static void main(String[] args) {
+        
+        LinkedList<String> Mobil2 = new LinkedList<String>();
+            Mobil2.add("Toyota");
+            Mobil2.add("Daihatsu");
+            Mobil2.add("Isuzu");
+            Mobil2.add("Hyundai");
+            Mobil2.add("Daihatsu");
+            Mobil2.add("Honda");
+            System.out.println("Index LinkedList sebelum perintah (.pop and .push) : \n"+Mobil2+'\n');
+
+            System.out.println("Menggunakan peek pada LinkedList :");
+            System.out.println(Mobil2.peek());
+            System.out.println("Index pertama : "+Mobil2.peekFirst());
+            System.out.println("Index Terakhir : "+Mobil2.peekLast());
+    }
+    
+}
