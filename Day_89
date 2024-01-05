@@ -1,0 +1,21 @@
+package linkedlist1;
+import java.util.LinkedList;
+public class LinkedList1 {
+
+    public static void main(String[] args) {
+        
+        LinkedList<String> Mobil2 = new LinkedList<String>();
+            Mobil2.add("Toyota");
+            Mobil2.add("Tesla");
+            Mobil2.add("Isuzu");
+            Mobil2.add("Hyundai");
+            Mobil2.add("Daihatsu");
+            Mobil2.add("Honda");
+            System.out.println("Index LinkedList sebelum : \n"+Mobil2+'\n');
+
+            Mobil2.removeFirst();
+            Mobil2.removeLast();
+            System.out.println("Index LinkedList setelah : \n"+Mobil2);
+    }
+    
+}
