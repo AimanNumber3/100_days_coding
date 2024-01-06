@@ -1,0 +1,24 @@
+package javaapplication4;
+import java.util.LinkedList;
+import java.util.Scanner;
+public class JavaApplication4 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        String Alist,Alist1,Alist2,Vektor,Vektor1,Vektor2;
+        
+        System.out.println("Masukkan Nilai LinkedList : ");
+        Alist = input.nextLine(); 
+        Alist1 = input.nextLine(); 
+        Alist2 = input.nextLine();
+        System.out.println(' ');
+        
+        LinkedList<String> Daftar2 = new LinkedList<String>();
+           Daftar2.add (Alist);
+           Daftar2.add (Alist1);
+           Daftar2.add (Alist2);
+           System.out.println("Nilai LikedList : ");
+           System.out.println(Daftar2);
+    }
+    
+}
