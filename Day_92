@@ -1,0 +1,22 @@
+package linkedlist1;
+import java.util.LinkedList;
+public class LinkedList1 {
+
+    public static void main(String[] args) {
+        LinkedList<LinkedList<String>> DaftarV = new LinkedList();
+        LinkedList<String> Mobil2 = new LinkedList<String>();
+            Mobil2.add("Toyota");
+            Mobil2.add("Daihatsu");
+            Mobil2.add("Isuzu");
+            
+        LinkedList<String> Motor2 = new LinkedList<String>();
+            Motor2.add("Honda");
+            Motor2.add("Yamaha");
+            Motor2.add("Suzuki");
+            
+        DaftarV.add(Mobil2);
+        DaftarV.add(Motor2);
+        System.out.println("Nilai index LinkedList : \n"+DaftarV+'\n');
+    }
+    
+}
