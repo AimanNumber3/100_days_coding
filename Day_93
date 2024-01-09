@@ -1,0 +1,20 @@
+package last10;
+public class Last10 {
+    
+    public static void main(String[] args) {
+        int Nilai = 10;
+        System.out.println("Nilai awal : "+Nilai);
+        
+        Ulangan(Nilai);
+  }
+    private static void Ulangan (int parameter){
+        System.out.println("Nilai = "+parameter);
+        
+        if (parameter == 0) {
+            return;
+        }
+        
+        parameter--;
+        Ulangan(parameter);
+    }
+}
