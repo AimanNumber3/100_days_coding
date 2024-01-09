@@ -4,7 +4,7 @@ public class Last10 {
     public static void main(String[] args) {
         int Nilai = 10;
         System.out.println("Nilai awal : "+Nilai);
-        
+    
         Ulangan(Nilai);
   }
     private static void Ulangan (int parameter){
