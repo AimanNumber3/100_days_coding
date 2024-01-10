@@ -1,0 +1,35 @@
+package Last10;
+import java.util.LinkedList;
+import java.util.Stack;
+import java.util.Queue;
+public class Last10 {
+
+    public static void main(String[] args) {
+        
+        Stack Motor2 = new Stack<String>();
+            Motor2.add("Honda");
+            Motor2.add("Yamaha");
+            Motor2.add("Suzuki");
+            System.out.println("Apakah index Stack kosong? : "+Motor2.empty());
+            System.out.println("Nilai index Stack : "+Motor2);
+            Motor2.push("Kawasaki");
+            System.out.println("Nilai index setelah .push : "+Motor2);
+            System.out.println("Nilai yang ditambahkan ke dalam index : "+Motor2.pop());
+            System.out.println("Nomor dari index Yamaha : "+Motor2.search("Yamaha"));
+            System.out.println("");
+        
+        Queue<String> Mobil2 = new LinkedList<String>();
+            Mobil2.add("Toyota");
+            Mobil2.add("Daihatsu");
+            Mobil2.add("Isuzu");
+            System.out.println("Nilai pertama dalam index : "+Mobil2.peek());
+            System.out.println("Nilai index Queue : "+Mobil2);
+            Mobil2.offer("Tesla");
+            System.out.println("Nilai index setelah .offer : "+Mobil2);
+            Mobil2.poll();
+            System.out.println("Menghapus index pertama : "+Mobil2);
+            Mobil2.remove("Daihatsu");
+            System.out.println("Setelah menghapus index kedua : "+Mobil2);
+    }
+    
+}
