@@ -1,0 +1,27 @@
+package javaapplication4;
+import java.util.HashSet;
+public class JavaApplication4 {
+
+    public static void main(String[] args) {
+        HashSet<String> Mobil2 = new HashSet<String>();
+            Mobil2.add("Toyota");
+            Mobil2.add("Daihatsu");
+            Mobil2.add("Isuzu");
+            Mobil2.add("Ferrari");
+            Mobil2.add("Daihatsu");
+            System.out.println("Nilai dari HashSet : ");
+            for (String i : Mobil2) {
+                System.out.println(i);
+            /*output hanya menampilkan 1 "Daihatsu" karena nilai dari set
+            harus unik atau tidak sama*/
+        }
+            System.out.println(" \nBanyaknya karakter di dalam HashSet : "+Mobil2.size()); 
+            if (Mobil2.contains("Mazda")) {
+                System.out.println("HashSet mengandung Brand Mazda ");
+        }else{System.out.println("HashSet tak mengandung Brand Mazda \n");}
+            
+            Mobil2.clear();
+            System.out.println("HashSet setelah perintah .clear : "+Mobil2);
+    }
+    
+}
