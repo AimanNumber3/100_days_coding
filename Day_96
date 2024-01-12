@@ -1,0 +1,30 @@
+package javaapplication4;
+import java.util.HashMap;
+public class JavaApplication4 {
+
+    public static void main(String[] args) {
+        HashMap<String,String> countries = new HashMap<String,String>();
+		
+		countries.put("Indonesia","Jakarta");
+		countries.put("Russia","Moscow");
+		countries.put("Australia","Canberra");
+		countries.put("China","Beijing");
+		
+		System.out.println(countries);
+                System.out.println(countries.size());
+		countries.remove("Indonesia");
+                System.out.println(countries);
+                
+		System.out.println(countries.get("Russia"));
+		countries.clear();
+		countries.replace("Indonesia", "Nusantara");
+		System.out.print(countries.containsKey("England"));
+		System.out.print(countries.containsValue("Beijing"));
+		
+		for(String i : countries.keySet()) {
+			System.out.print(i+"\t"+"= ");
+			System.out.println(countries.get(i));
+		}
+		
+	}
+}
