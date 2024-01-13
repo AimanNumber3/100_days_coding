@@ -1,0 +1,14 @@
+package javaapplication6;
+public class JavaApplication6 {
+    
+    public static void main(String[] args) {
+        
+        double hasil = Perkalian(6.9,4.20);
+    System.out.println(hasil);
+  }
+    static double Perkalian(double Angka, double Nomor) {
+    
+        double Hasil = (Angka * Nomor);
+    return Hasil;
+  }
+}
