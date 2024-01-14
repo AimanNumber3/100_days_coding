@@ -1,0 +1,36 @@
+//********************************************
+package last10;
+public class Last10 {
+    
+    public static void main(String[] args) {
+			
+		Lantai jatuh = new Lantai();
+                
+		Gelas objek1 = new Gelas("Cangkir");
+		Gelas objek2 = new Gelas("Gelas");
+		Gelas objek3 = new Gelas("Mangkuk");
+                
+                jatuh.Jatuh(objek1);
+                jatuh.Jatuh(objek2);
+                jatuh.Jatuh(objek3);
+	}
+}
+//********************************************
+package last10;
+public class Lantai {
+    
+    void Jatuh(Gelas objek){
+        System.out.println(objek.jenis+" telah jatuh di lantai!");
+    }
+}
+//********************************************
+package last10;
+public class Gelas {
+    
+    String jenis;
+    
+    Gelas(String jenis){
+        this.jenis = jenis;
+    }
+}
+//********************************************
