@@ -1,0 +1,15 @@
+package javaapplication6;
+public class JavaApplication6 {
+    
+    public static void main(String[] args) {
+        
+        int tahun = 2005;
+        char nilai ='A';
+        double bb = 55.0;
+        byte sems = 2;
+        
+        System.out.println("Biodata Palsu :");
+        System.out.println("Author merupakan mahasiswa semester ke : "+sems+"\nTahun lahir : "+tahun);
+        System.out.println("Berat badan : "+bb+"Kg\nPredikat nilai akhir : "+nilai);
+  }
+}
