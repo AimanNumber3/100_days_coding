@@ -1,0 +1,56 @@
+package javaapplication1;
+import java.util.Scanner;
+public class JavaApplication1 {
+
+     public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+         System.out.println("masukkan angka 1 : ");
+        int angka1 = input.nextInt();
+         System.out.println("masukkan angka 2 : ");
+        int angka2 = input.nextInt();
+        
+        //operator aritmatika
+        int penjumlahan = angka1 + angka2;
+        int perkalian = angka1 * angka2;
+        int pengurangan = angka1 - angka2;
+        int pembagian = angka1 / angka2;
+        int hasilBagi = angka1 % angka2;
+        System.out.println("Hasil penjumlahan : "+penjumlahan);
+        System.out.println("Hasil perkalian : "+perkalian);
+        System.out.println("Hasil pengurangan : "+pengurangan);
+        System.out.println("Hasil pembagian : "+pembagian);
+        System.out.println("Hasil hasil bagi : "+hasilBagi+'\n');
+        
+        //penugasan
+        angka1 += angka2;
+         System.out.println("Hasil penjumlahan : "+angka1);
+        angka1 *= angka2;
+        System.out.println("Hasil perkalian : "+angka1);
+        angka1 -= angka2;
+        System.out.println("Hasil pengurangan : "+angka1);
+        angka1 /= angka2;
+        System.out.println("Hasil pembagian : "+angka1);
+        angka1 %= angka2;
+        System.out.println("Hasil hasil bagi : "+angka1);
+         System.out.println(' ');
+        
+        //perbandingan
+         System.out.println(angka1 > angka2);
+         System.out.println(angka1 < angka2);
+         System.out.println(angka1 == angka2);
+         System.out.println(angka1 >= angka2);
+         System.out.println(angka1 <= angka2);
+         System.out.println(angka1 != angka2);
+         System.out.println(' ');
+         
+         //operator logika
+         boolean X = true;
+         boolean Y = false;
+         
+         System.out.println(X && Y);
+         System.out.println(!Y);
+         System.out.println(!X);
+         System.out.println(X || Y);
+    }
+}
